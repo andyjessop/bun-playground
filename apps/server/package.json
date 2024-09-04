@@ -1,0 +1,6 @@
+{
+  "name": "server",
+  "scripts": {
+    "start": "bun run ./src/index.ts"
+  }
+}

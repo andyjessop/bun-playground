@@ -3,21 +3,12 @@
   "license": "ISC",
   "type": "module",
   "scripts": {
-    "pipeline:test": "bun run --cwd ./packages/pipeline test",
-    "worker:start": "bun run --cwd ./apps/worker start",
-    "ai:deploy": "bun run --cwd ./apps/ai deploy",
-    "ai:start": "bun run --cwd ./apps/ai start"
+    "server:start": "bun run --cwd ./apps/server start"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.8.2",
     "@types/bun": "^1.1.5"
   },
   "workspaces": ["apps/*", "packages/*"],
-  "dependencies": {
-    "@anthropic-ai/sdk": "^0.24.0",
-    "@langchain/textsplitters": "^0.0.3",
-    "hono": "^4.4.8",
-    "langchain": "^0.2.8",
-    "openai": "^4.52.1"
-  }
+  "dependencies": {}
 }
