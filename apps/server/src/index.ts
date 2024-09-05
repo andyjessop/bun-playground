@@ -1,3 +1,3 @@
-import * as logger from "../../../packages/logger/src/logger";
+import { logger } from "../../../packages/logger/src/logger";
 
 logger.info("works!");
