@@ -1,7 +1,9 @@
 {
-	"files": [],
+	"extends": "./tsconfig.base.json",
+	"include": ["packages/**/*", "apps/**/*"],
 	"references": [
-		{ "path": "./tsconfig.src.json" },
-		{ "path": "./tsconfig.tool.json" }
+		{ "path": "./tsconfig.browser.json" },
+		{ "path": "./tsconfig.workerd.json" },
+		{ "path": "./tsconfig.node.json" }
 	]
 }

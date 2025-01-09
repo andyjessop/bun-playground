@@ -3,7 +3,7 @@
   "license": "ISC",
   "type": "module",
   "scripts": {
-    "server:start": "bun run --cwd ./apps/server start"
+    "cli:start": "bun run --cwd apps/cli start"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.8.2",
